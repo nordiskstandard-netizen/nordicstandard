@@ -1,0 +1,67 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  scroll-behavior: smooth;
+}
+
+
+.tooltip {
+  position: absolute;
+ 
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-20%);
+    scale: 125%;
+    transform: translateY(-10%); /* Start 20% off the left */
+  }
+  100% {
+    transform: translateX(0);
+    scale: 125%;
+    transform: translateY(0); /* End at the original position */
+  }
+}
+
+.animate-slide-in {
+  
+  animation: slideIn 10s ease-in-out forwards;
+}
+
+
+
+.tooltip::after {
+  content: '';
+  position: absolute;
+  bottom:100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  opacity: 0.45;
+  border-color: transparent transparent black transparent;
+}
+
+.first::after {
+  content: '';
+  position: absolute;
+  bottom:100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  opacity: 0.45;
+  border-color: transparent transparent black transparent;
+}
+.first::before {
+  content: ' ';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
