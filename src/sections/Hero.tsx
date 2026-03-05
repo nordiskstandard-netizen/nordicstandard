@@ -23,7 +23,7 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.4, ease: "anticipate" }}
-          src="/nordisk_standard_logo.png"
+          src="/nordisk_logo_312.png"
           alt="Nordisk Standard logo – utleieforvaltning Oslo"
           className="w-36 h-36 md:w-48 md:h-48 object-contain"
         />
