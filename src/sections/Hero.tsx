@@ -59,7 +59,7 @@ const Hero = () => {
         aria-label="Overlay Section"
       >
         <section
-          className="flex flex-col gap-4 md:gap-6 justify-start md:justify-center items-center"
+          className="flex flex-col gap-4 md:gap-6 justify-start md:justify-center items-center bg-[#004aad] px-8 py-6 rounded-lg"
           aria-label="Hero Content"
         >
           <motion.h2
