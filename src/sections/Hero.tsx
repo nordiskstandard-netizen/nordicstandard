@@ -73,7 +73,7 @@ const Hero = () => {
               y: 0,
             }}
             transition={{ delay: 0.2, ease: "anticipate" }}
-            className="text-herohead text-center font-bold text-4xl font-comorant md:text-5xl lg:text-6xl drop-shadow-xl"
+            className="text-white text-center font-bold text-4xl md:text-5xl lg:text-6xl drop-shadow-xl uppercase tracking-wide" style={{ fontFamily: "'Josefin Sans', sans-serif" }}
             aria-label="Main Heading"
           >
             Profesjonell korttidsutleie av leilighet i Oslo
@@ -89,7 +89,7 @@ const Hero = () => {
               y: 0,
             }}
             transition={{ delay: 0.3, ease: "anticipate" }}
-            className="text-herosub font-medium text-center text-lg md:text-xl lg:text-2xl font-infant drop-shadow-xl"
+            className="text-white font-medium text-center text-lg md:text-xl lg:text-2xl drop-shadow-xl uppercase tracking-wide" style={{ fontFamily: "'Josefin Sans', sans-serif" }}
             aria-label="Subheading"
           >
             Vi håndterer hele prosessen for deg, slik at du oppnår best mulig inntekt med minimal innsats og full fleksibilitet
