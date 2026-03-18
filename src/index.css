@@ -3,6 +3,7 @@
 @import 'tailwindcss/utilities';
 * {
   font-family: 'Josefin Sans', sans-serif !important;
+  text-transform: uppercase;
 }
 
 * {
